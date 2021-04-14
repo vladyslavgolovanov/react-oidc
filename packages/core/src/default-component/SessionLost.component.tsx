@@ -9,12 +9,12 @@ type SessionLostProps = {
 export const SessionLost: FC<SessionLostProps> = ({ onAuthenticate }) => (
   <div className="oidc-session-lost">
     <div className="oidc-session-lost__container">
-      <h1 className="oidc-session-lost__title">Session expirée</h1>
+      <h1 className="oidc-session-lost__title">Session timed out</h1>
       <p className="oidc-session-lost__content">
-        Votre session est expirée. Veuillez vous ré-authentifier.
+        Your session has expired. Please re-authenticate.
       </p>
       <button className="oidc-session-lost__button" type="button" onClick={onAuthenticate}>
-        Ré-authentifier
+        Re-authenticate
       </button>
     </div>
   </div>
