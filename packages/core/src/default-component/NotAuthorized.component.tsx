@@ -3,9 +3,9 @@ import * as React from 'react';
 const NotAuthorized = () => (
   <div className="oidc-not-authorized">
     <div className="oidc-not-authorized__container">
-      <h1 className="oidc-not-authorized__title">Autorisation</h1>
+      <h1 className="oidc-not-authorized__title">Authorization</h1>
       <p className="oidc-not-authorized__content">
-        Vous n'êtes pas autorisé à accéder à cette ressource.
+        You are not authorized to access this resource.
       </p>
     </div>
   </div>
